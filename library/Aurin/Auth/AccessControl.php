@@ -37,7 +37,9 @@ class Aurin_Auth_AccessControl extends Zend_Controller_Plugin_Abstract
 
         if (isset($message)) {
           $view = Zend_Controller_Action_HelperBroker::getExistingHelper("ViewRenderer")->view;
-          $view->message = $message;
+          //var_dump($view);
+          var_dump($message);
+          //$view->message = $message;
         }
       }
     }
